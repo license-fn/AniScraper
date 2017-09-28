@@ -11,11 +11,13 @@ enough to get the job done.
 
 Requirements:
 ------------
-beautifulsoup4
+Python 3
+beautifulsoup4>=4.6
+requests>=2.18
 
 Usage:
 ------
-scrape.py <output file> <article url>
+python3 ani-scrape.py <output file> <article url>
 """
 import sys
 
