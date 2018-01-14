@@ -29,14 +29,14 @@ optional arguments:
   -h, --help   show this help message and exit
 ```
 
-## Installation
+## Installation:
 
 ### Requirements:
 * Python3
 * pip
 * make
 
-### From source
+### From Source:
 1. Clone the repository
 2. Run `make`
 3. Run `make install`
