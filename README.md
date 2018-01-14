@@ -12,8 +12,12 @@ text file. Accuracy is not 100% correct at the moment, but it is close
 enough to get the job done.
 
 ## Usage:
+Once installed, `ani_scraper` is available both as a command line executable and as a module.
+* As an executable, it can be invoked via: `ani_scraper`
+* As a module, it can be invoked via: `python3 -m ani_scraper`
+
 ```
-usage: ani_scraper [-h] url output_file
+ani_scraper [-h] url output_file
 
 Scrape an anime transcript from Anikobin/あにこ便. (http://anicobin.ldblog.jp)
 
