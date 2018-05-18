@@ -32,4 +32,5 @@ def main():
     except requests.exceptions.HTTPError as err:
         print('The page returned an HTTP error. (Code: {0})'.format(err.response.status_code))
 
-main()
+if __name__ == '__main__':
+    main()
